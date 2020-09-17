@@ -1,6 +1,11 @@
 $blue: #36A3F1;
 $pink: #ED6EBA;
 $white: #fff;
+$gray: #999999;
+$magenta: #A63DD8;
+$dark-blue: #3042E9;
+$light-blue: #29C9EC;
+$yellow: #EAE223;
 
 * {
   margin: 0;
@@ -135,4 +140,66 @@ button:disabled {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.title {
+  font-size: 4.2rem;
+  color: $blue;
+}
+
+.subtitle {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: $gray;
+  margin-bottom: 76px;
+}
+
+.small-container{
+  max-width: 1178px;
+  margin: 0 auto;
+}
+
+.center-items {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item {
+  text-align: center;
+}
+
+.circle {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 21px;
+}
+
+.first-card {
+  background-color: rgba($color: $magenta, $alpha: 0.1);
+}
+
+.second-card {
+  background-color: rgba($color: $dark-blue, $alpha: 0.1);
+}
+
+.third-card {
+  background-color: rgba($color: $light-blue, $alpha: 0.15);
+}
+
+.item-title {
+  font-size: 2.2rem;
+  color: $blue;
+  font-weight: 600;
 }

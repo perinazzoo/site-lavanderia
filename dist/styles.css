@@ -132,3 +132,65 @@ button:disabled {
   flex-direction: column;
   align-items: center;
 }
+
+.title {
+  font-size: 4.2rem;
+  color: #36A3F1;
+}
+
+.subtitle {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #999999;
+  margin-bottom: 76px;
+}
+
+.small-container {
+  max-width: 1178px;
+  margin: 0 auto;
+}
+
+.center-items {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item {
+  text-align: center;
+}
+
+.circle {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 21px;
+}
+
+.first-card {
+  background-color: rgba(166, 61, 216, 0.1);
+}
+
+.second-card {
+  background-color: rgba(48, 66, 233, 0.1);
+}
+
+.third-card {
+  background-color: rgba(41, 201, 236, 0.15);
+}
+
+.item-title {
+  font-size: 2.2rem;
+  color: #36A3F1;
+  font-weight: 600;
+}

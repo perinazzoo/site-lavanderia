@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  border: 0;
+}
+
+html,
+body {
+  min-height: 100%;
+  width: 100%;
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+
+a,
+button,
+input {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+}
+
+.nav-link {
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 12px;
+  color: #36A3F1;
+}
+
+.nav-button {
+  background-color: #ED6EBA;
+  color: #fff;
+  border-radius: 23.5px;
+  padding: 8px 20px;
+  margin-left: 18px;
+}
+
+.hero-section {
+  position: relative;
+}
+
+.hero-img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.hero-gradient {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 9;
+  width: 100%;
+  height: 600px;
+  background: linear-gradient(273.54deg, rgba(54, 163, 241, 0.15) 4.36%, rgba(54, 163, 241, 0.15) 4.37%, rgba(54, 163, 241, 0.15) 29.43%, rgba(237, 110, 186, 0.15) 69.8%, rgba(237, 110, 186, 0.15) 98.73%);
+}
+
+.wave-bottom {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.hero-text-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 11;
+  height: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-title {
+  font-size: 3.2rem;
+  text-align: center;
+  color: #ED6EBA;
+}
+
+.hero-text {
+  color: #fff;
+  font-size: 2.2rem;
+  text-align: center;
+  margin: 5px 0 10px;
+}
+
+.btn {
+  font-size: 1.8rem;
+  color: #ED6EBA;
+  background-color: transparent;
+  border: 3px solid #ED6EBA;
+  padding: 8px 26px;
+  font-weight: 700;
+  border-radius: 26.5px;
+}
+
+.text-wrapper {
+  position: absolute;
+  left: 17%;
+  transform: translateY(-20%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

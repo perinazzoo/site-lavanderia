@@ -100,6 +100,14 @@ button:disabled {
   z-index: 10;
 }
 
+.wave-top {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
 .hero-text-container {
   position: absolute;
   top: 0;
@@ -152,6 +160,7 @@ button:disabled {
   font-weight: 500;
   color: $gray;
   margin-bottom: 76px;
+  text-align: center;
 }
 
 .small-container{
@@ -173,7 +182,7 @@ button:disabled {
 }
 
 .item {
-  text-align: center;
+  max-width: 250px;
 }
 
 .circle {
@@ -202,4 +211,59 @@ button:disabled {
   font-size: 2.2rem;
   color: $blue;
   font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.info {
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: $gray;
+  text-align: center;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.bg-blue {
+  background-color: rgba($color: $light-blue, $alpha: 0.1);
+  position: relative;
+  padding: 150px 0;
+}
+
+.center-container {
+  display: flex;
+  align-items: center;
+}
+
+
+.mt-150 {
+  margin-top: 150px;
+}
+
+.mb-150 {
+  margin-bottom: 150px;
+}
+
+.w-700 {
+  max-width: 700px;
+}
+
+.card {
+  max-width: 344px;
+  background-color: $white;
+  padding: 50px 35px;
+  min-height: 453px;
+  border-radius: 16px;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: $blue;
+  margin-bottom: 20px;
+}
+
+.icon {
+  margin-bottom: 32px;
 }

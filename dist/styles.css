@@ -553,6 +553,12 @@ nav {
   .list-item-price {
     font-size: 1.8rem;
   }
+
+  .btn {
+    background-color: #ED6EBA;
+    color: #fff;
+    box-shadow: 0px 8px 16px rgba(112, 144, 176, 0.3);
+  }
 }
 @media (max-width: 996px) {
   .footer-columns {
